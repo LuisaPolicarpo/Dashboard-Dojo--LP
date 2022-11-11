@@ -32,9 +32,9 @@ st.set_page_config(
 #      st.image(image)
 # else:
 col1, col2, col3 = st.columns(3)
-image = Image.open("C:/Users/luisa/OneDrive/Ambiente de Trabalho/Dojo-pic.png")
+image = Image.open("https://github.com/LuisaPolicarpo/Dashboard-Dojo--LP/blob/main/dojo.py")
 
-image2 = Image.open("C:/Users/luisa/OneDrive/Ambiente de Trabalho/WCS/car.png")
+image2 = Image.open("https://github.com/LuisaPolicarpo/Dashboard-Dojo--LP/blob/main/car.png")
 
 with col1:
     st.image(image)
@@ -73,35 +73,8 @@ with col5:
     
 with col6:
     st.header("Winner👑")
-    image3 = Image.open("C:/Users/luisa/OneDrive/Ambiente de Trabalho/WCS/prize.png")
+    image3 = Image.open("https://github.com/LuisaPolicarpo/Dashboard-Dojo--LP/blob/main/prize.png")
     st.image(image3)
-
-# fig, ax = plt.subplots(figsize=(10, 4))
-# ax.bar(df_finances_to["country"], df_finances_to["turnover"], color="lightblue")
-# ax.set_title('The turnover of orders')
-# ax.set_ylabel('Orders')
-# ax.set_xlabel('Country')
-# # fig.autofmt_xdate()
-# # st.pyplot(fig)
-# st.set_option('deprecation.showPyplotGlobalUse', False)
-# print(df_finances_to.head(7))
-# fig3, ax = plt.subplots(figsize=(10, 4))
-# # sns.pointplot(data=df_finances_to, x="country", y= 'turnover')
-# sns.lineplot(data=df_finances_to, x="country", y= 'turnover')
-# ax.set_title('The turnover of orders')
-# ax.set_ylabel('Orders')
-# ax.set_xlabel('Country')
-# st.pyplot(fig3)
-# # sns.lineplot(data=df_finances_to, x="date", y="country")
-# fig2, ax2 = plt.subplots(figsize=(10, 4))
-# # sns.boxplot(x=df_finances_to["turnover"])
-# # sns.kdeplot(data=df_finances_to,x='country', y="turnover")
-# df_finances_to = df_finances_to[df_finances_to['country'] == 'France']
-# df_finances_to2 = df_finances_to.loc[:, ["country", "city", "turnover"]]
-# st.dataframe (df_finances_to2)
-
-# image3 = Image.open("C:/Users/luisa/OneDrive/Ambiente de Trabalho/WCS/prize.png")
-# st.image(image3)
 
 
 
