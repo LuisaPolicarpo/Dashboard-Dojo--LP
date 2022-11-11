@@ -32,9 +32,9 @@ st.set_page_config(
 #      st.image(image)
 # else:
 col1, col2, col3 = st.columns(3)
-image = Image.open("https://github.com/LuisaPolicarpo/Dashboard-Dojo--LP/blob/main/dojo.py")
+image = Image.open("Dojo-pic.png")
 
-image2 = Image.open("https://github.com/LuisaPolicarpo/Dashboard-Dojo--LP/blob/main/car.png")
+image2 = Image.open("car.png")
 
 with col1:
     st.image(image)
@@ -73,7 +73,8 @@ with col5:
     
 with col6:
     st.header("Winner👑")
-    image3 = Image.open("https://github.com/LuisaPolicarpo/Dashboard-Dojo--LP/blob/main/prize.png")
+    image3 = Image.open("prize.png")
+    image4= Image.open('france.png')
     st.image(image3)
 
 
